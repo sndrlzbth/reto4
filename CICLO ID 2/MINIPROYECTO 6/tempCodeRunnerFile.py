@@ -8,7 +8,7 @@ def num_to_words(num):
     
 def main():
     while True:
-        user_input = input("Ingresa un numero: ")
+        user_input = input("Ingresa un numero: \n ('salir' para terminar) ")
         if user_input.lower() == 'salir':
             break
         try:
