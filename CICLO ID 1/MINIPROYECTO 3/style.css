@@ -1,0 +1,17 @@
+ body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #3e2424 0%, #fad0c4 99%, #fad0c4 100%);
+            font-family: 'Press Start 2P', cursive;
+        }
+        header h1 {
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        #board {
+            box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+            background: slategrey;
+        }
